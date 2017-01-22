@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a077d4-b922-4811-99c7-20da08cde5eb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/actor_movement.rb" afterPath="$PROJECT_DIR$/test/actor_movement_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/direction.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mapMaker.iml" afterPath="$PROJECT_DIR$/.idea/mapMaker.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/actor.rb" afterPath="$PROJECT_DIR$/source/actor.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/actor_movement_on_map_test.rb" afterPath="$PROJECT_DIR$/test/actor_movement_on_map_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/actor_movement_test.rb" afterPath="$PROJECT_DIR$/test/actor_movement_test.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,9 +19,10 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/mapMaker@actor_movement_on_map.coverage" NAME="actor_movement_on_map Coverage Results" MODIFIED="1485011932121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mapMaker" />
-    <SUITE FILE_PATH="coverage/2DMapGame@IRB_console__mapMaker.coverage" NAME="IRB console: mapMaker Coverage Results" MODIFIED="1485015450391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mapMaker" />
+    <SUITE FILE_PATH="coverage/2DMapGame@IRB_console__mapMaker.coverage" NAME="IRB console: mapMaker Coverage Results" MODIFIED="1485118729571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mapMaker" />
+    <SUITE FILE_PATH="coverage/2DMapGame@All_tests_in_test__mapMaker.coverage" NAME="All tests in test: mapMaker Coverage Results" MODIFIED="1485119168741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mapMaker" />
     <SUITE FILE_PATH="coverage/mapMaker@Run_test__MapTest___mapMaker.coverage" NAME="Run test 'MapTest': mapMaker Coverage Results" MODIFIED="1485011532852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mapMaker" />
-    <SUITE FILE_PATH="coverage/2DMapGame@test__mapMaker.coverage" NAME="test: mapMaker Coverage Results" MODIFIED="1485015679331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mapMaker" />
+    <SUITE FILE_PATH="coverage/2DMapGame@test__mapMaker.coverage" NAME="test: mapMaker Coverage Results" MODIFIED="1485118735477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mapMaker" />
     <SUITE FILE_PATH="coverage/mapMaker@All_tests_in_test__mapMaker.coverage" NAME="All tests in test: mapMaker Coverage Results" MODIFIED="1485014074301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mapMaker" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -31,38 +34,28 @@
       <file leaf-file-name="actor.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/actor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="actor_movement_on_map_test.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/actor_movement_on_map_test.rb">
+      <file leaf-file-name="direction.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/direction.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Rakefile">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/map.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Ruby Class Template" />
         <option value="TestUnit Test Template" />
+        <option value="Ruby Class Template" />
       </list>
     </option>
   </component>
@@ -97,10 +90,13 @@
         <option value="$PROJECT_DIR$/test/map_test.rb" />
         <option value="$PROJECT_DIR$/test/my_test.rb" />
         <option value="$PROJECT_DIR$/test/actor_movement_on_map.rb" />
-        <option value="$PROJECT_DIR$/source/actor.rb" />
         <option value="$PROJECT_DIR$/source/map.rb" />
-        <option value="$PROJECT_DIR$/test/actor_movement_on_map_test.rb" />
         <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/source/actor.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/test/actor_movement_test.rb" />
+        <option value="$PROJECT_DIR$/test/actor_movement_on_map_test.rb" />
+        <option value="$PROJECT_DIR$/source/direction.rb" />
       </list>
     </option>
   </component>
@@ -136,6 +132,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -151,8 +150,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,7 +202,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
   </component>
   <component name="RecentsManager">
@@ -211,7 +210,7 @@
       <recent name="C:\Users\copat\RubymineProjects\mapMaker\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.test: mapMaker">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.All tests in test: mapMaker">
     <configuration default="false" name="All tests in test: mapMaker" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="mapMaker" />
@@ -434,9 +433,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Rake.test: mapMaker" />
-        <item index="1" class="java.lang.String" itemvalue="IRB console.IRB console: mapMaker" />
-        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: mapMaker" />
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: mapMaker" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.test: mapMaker" />
+        <item index="2" class="java.lang.String" itemvalue="IRB console.IRB console: mapMaker" />
       </list>
     </recent_temporary>
   </component>
@@ -455,50 +454,52 @@
       <workItem from="1485006512574" duration="182000" />
       <workItem from="1485006913563" duration="1459000" />
       <workItem from="1485008560117" duration="5672000" />
-      <workItem from="1485015405161" duration="307000" />
+      <workItem from="1485015405161" duration="1247000" />
+      <workItem from="1485113089956" duration="650000" />
+      <workItem from="1485117905241" duration="1286000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_tests_in_test__mapMaker - 2017.01.21 at 16h 45m 58s.xml">
-      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_tests_in_test__mapMaker - 2017.01.21 at 16h 46m 17s.xml">
-      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_tests_in_test__mapMaker - 2017.01.21 at 16h 46m 33s.xml">
-      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_tests_in_test__mapMaker - 2017.01.21 at 16h 51m 44s.xml">
-      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_tests_in_test__mapMaker - 2017.01.21 at 16h 53m 08s.xml">
-      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_tests_in_test__mapMaker - 2017.01.21 at 16h 53m 56s.xml">
-      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_tests_in_test__mapMaker - 2017.01.21 at 16h 53m 59s.xml">
-      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_tests_in_test__mapMaker - 2017.01.21 at 16h 54m 13s.xml">
-      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="All_tests_in_test__mapMaker - 2017.01.21 at 16h 54m 34s.xml">
+      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__mapMaker - 2017.01.22 at 21h 59m 02s.xml">
+      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__mapMaker - 2017.01.22 at 21h 59m 59s.xml">
+      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__mapMaker - 2017.01.22 at 22h 00m 15s.xml">
+      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__mapMaker - 2017.01.22 at 22h 00m 47s.xml">
+      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__mapMaker - 2017.01.22 at 22h 01m 30s.xml">
+      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__mapMaker - 2017.01.22 at 22h 01m 45s.xml">
+      <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__mapMaker - 2017.01.22 at 22h 06m 09s.xml">
       <configuration name="All tests in test: mapMaker" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
     <history-entry file="test__mapMaker - 2017.01.21 at 17h 21m 20s.xml">
       <configuration name="test: mapMaker" configurationId="RakeRunConfigurationType" />
     </history-entry>
+    <history-entry file="test__mapMaker - 2017.01.22 at 21h 58m 56s.xml">
+      <configuration name="test: mapMaker" configurationId="RakeRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11376000" />
+    <option name="totallyTimeSpent" value="14252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5041929" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -530,14 +531,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/map_test.rb">
+    <entry file="file://$PROJECT_DIR$/test/actor_movement_on_map_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/actor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/actor_movement_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/map_test.rb" />
     <entry file="file://$PROJECT_DIR$/source/actor.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -644,10 +662,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/actor_movement_on_map2.rb" />
     <entry file="file://$PROJECT_DIR$/test/map_test.rb" />
-    <entry file="file://$PROJECT_DIR$/test/actor_movement_on_map_test.rb">
+    <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -660,18 +678,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/actor.rb">
+    <entry file="file://$PROJECT_DIR$/test/actor_movement_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="514">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
+    <entry file="file://$PROJECT_DIR$/test/actor_movement_on_map_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/actor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/direction.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding />
         </state>
       </provider>

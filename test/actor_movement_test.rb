@@ -2,6 +2,7 @@ require "minitest/autorun"
 require_relative '../source/map'
 require_relative '../source/point'
 require_relative '../source/actor'
+require_relative '../source/direction'
 
 class ActorMovement < Minitest::Test
 
@@ -13,7 +14,7 @@ class ActorMovement < Minitest::Test
   end
 
   def test_moveEast
-    @actor.moveTo("east")
+    @actor.moveTo(Direction.east)
 
     point = @actor.getPosition()
     assert_equal(6, point.x)
@@ -21,7 +22,7 @@ class ActorMovement < Minitest::Test
   end
 
   def test_moveWest
-    @actor.moveTo("west")
+    @actor.moveTo(Direction.west)
 
     point = @actor.getPosition()
     assert_equal(4, point.x)
@@ -29,7 +30,7 @@ class ActorMovement < Minitest::Test
   end
 
   def test_moveNorth
-    @actor.moveTo("north")
+    @actor.moveTo(Direction.north)
 
     point = @actor.getPosition()
     assert_equal(5, point.x)
@@ -37,7 +38,7 @@ class ActorMovement < Minitest::Test
   end
 
   def test_moveSouth
-    @actor.moveTo("south")
+    @actor.moveTo(Direction.south)
 
     point = @actor.getPosition()
     assert_equal(5, point.x)

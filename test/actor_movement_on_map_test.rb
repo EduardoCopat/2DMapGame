@@ -12,7 +12,7 @@ class ActorMovementOnMap < Minitest::Test
 
   def test_westOutsideMap
     @actor = Actor.new(Point.new(0,0), @map)
-    @actor.moveTo("west")
+    @actor.moveTo(Direction.west)
 
     point = @actor.getPosition()
     assert_equal(0, point.x)
@@ -21,7 +21,7 @@ class ActorMovementOnMap < Minitest::Test
 
   def test_eastOutsideMap
     @actor = Actor.new(Point.new(10,10), @map)
-    @actor.moveTo("east")
+    @actor.moveTo(Direction.east)
 
     point = @actor.getPosition()
     assert_equal(10, point.x)
@@ -30,7 +30,7 @@ class ActorMovementOnMap < Minitest::Test
 
   def test_north_outside_map
     @actor = Actor.new(Point.new(0,0), @map)
-    @actor.moveTo("north")
+    @actor.moveTo(Direction.north)
 
     point = @actor.getPosition()
     assert_equal(0, point.x)
@@ -39,7 +39,7 @@ class ActorMovementOnMap < Minitest::Test
 
   def test_south_outside_map
     @actor = Actor.new(Point.new(10,10), @map)
-    @actor.moveTo("south")
+    @actor.moveTo(Direction.south)
 
     point = @actor.getPosition()
     assert_equal(10, point.x)
