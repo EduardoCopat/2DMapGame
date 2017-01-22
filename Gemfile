@@ -1,3 +1,5 @@
 source 'https://rubygems.org'
 gem 'rake'
 gem 'minitest'
+gem 'gosu'
+gem 'require_all'

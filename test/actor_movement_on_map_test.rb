@@ -1,7 +1,7 @@
 require "minitest/autorun"
-require_relative '../source/map'
-require_relative '../source/point'
-require_relative '../source/actor'
+require_relative '../source/core/map'
+require_relative '../source/core/point'
+require_relative '../source/core/actor'
 
 class ActorMovementOnMap < Minitest::Test
   attr_accessor :map, :actor

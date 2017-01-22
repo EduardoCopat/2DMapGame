@@ -1,15 +1,19 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    gosu (0.11.1-x64-mingw32)
     minitest (5.8.5)
     rake (12.0.0)
+    require_all (1.4.0)
 
 PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  gosu
   minitest
   rake
+  require_all
 
 BUNDLED WITH
    1.14.1

@@ -1,8 +1,8 @@
 require "minitest/autorun"
-require_relative '../source/map'
-require_relative '../source/point'
-require_relative '../source/actor'
-require_relative '../source/direction'
+require_relative '../source/core/map'
+require_relative '../source/core/point'
+require_relative '../source/core/actor'
+require_relative '../source/core/direction'
 
 class ActorMovement < Minitest::Test
 
