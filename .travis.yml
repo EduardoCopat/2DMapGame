@@ -3,6 +3,7 @@ rvm:
  - 2.2
 before_install:
   #GOSU dependencies
+ - sudo apt-get -qq update
  - sudo apt-get install -y libsdl2-dev, libsdl2-ttf-dev, libpango1.0-dev, libgl1-mesa-dev, libopenal-dev, libsndfile-dev
 script:
   - bundle exec rake make
