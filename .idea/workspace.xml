@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85a077d4-b922-4811-99c7-20da08cde5eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-    </list>
+    <list default="true" id="85a077d4-b922-4811-99c7-20da08cde5eb" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -563,7 +561,7 @@
       <workItem from="1485113089956" duration="650000" />
       <workItem from="1485117905241" duration="5918000" />
       <workItem from="1485687221365" duration="2183000" />
-      <workItem from="1485693304107" duration="8448000" />
+      <workItem from="1485693304107" duration="8481000" />
     </task>
     <servers />
   </component>
@@ -600,7 +598,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29515000" />
+    <option name="totallyTimeSpent" value="29548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
