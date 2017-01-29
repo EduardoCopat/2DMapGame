@@ -1,6 +1,9 @@
 require 'gosu'
-require 'require_all'
-require_all '../../source/core'
+#require 'require_all'
+require_relative '../../source/core/actor'
+require_relative '../../source/core/direction'
+require_relative '../../source/core/map'
+require_relative '../../source/core/point'
 
 class Main < Gosu::Window
   attr_accessor :map, :player
@@ -10,13 +13,16 @@ class Main < Gosu::Window
     self.caption = 'Hello World!'
 
     @map = Map.new(100, 100)
+
     @player = Actor.new(Point.new(5, 5), @map)
+    @size = Point.new(5,5)
+    @player.setSize(@size)
   end
 
   def draw
 
     Gosu::draw_rect(0, 0, 100, 100, Gosu::Color::GRAY)
-    Gosu::draw_rect(@player.getPosition().x, @player.getPosition().y, 5, 5, Gosu::Color::AQUA)
+    Gosu::draw_rect(@player.getPosition().x, @player.getPosition().y, @size.x, @size.y, Gosu::Color::AQUA)
   end
 
   def update
@@ -29,17 +35,6 @@ class Main < Gosu::Window
     elsif Gosu.button_down? Gosu::KB_DOWN
       @player.moveTo(Direction.south)
     end
-
-    # if Gosu.button_down? Gosu::KB_LEFT or Gosu::button_down? Gosu::GP_LEFT
-    #   @player.turn_left
-    # end
-    # if Gosu.button_down? Gosu::KB_RIGHT or Gosu::button_down? Gosu::GP_RIGHT
-    #   @player.turn_right
-    # end
-    # if Gosu.button_down? Gosu::KB_UP or Gosu::button_down? Gosu::GP_BUTTON_0
-    #   @player.accelerate
-    # end
-    # @player.move
   end
 end
 

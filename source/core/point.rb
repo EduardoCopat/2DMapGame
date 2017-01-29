@@ -13,4 +13,12 @@ class Point
   def y
     return @y
   end
+
+  def +(otherPoint)
+    return Point.new(otherPoint.x() + @x, otherPoint.y() + @y)
+  end
+
+  def -(otherPoint)
+    return Point.new(@x - otherPoint.x(), @y - otherPoint.y())
+  end
 end
