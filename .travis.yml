@@ -15,6 +15,7 @@ before_install:
   - make
   - make install
   - sudo apt-get install -y libgl1-mesa-dev libopenal-dev libsndfile-dev
+  - gem install gosu
 script:
   - cd $TRAVIS_BUILD_DIR
   - bundle exec rake make
