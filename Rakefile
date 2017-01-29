@@ -6,8 +6,8 @@ Rake::TestTask.new do |testTask|
   testTask.pattern = "test/*_test.rb"
 end
 
-task :doit do
-  puts "DONE"
+task :make do
+  sh "ocra source/ui/main.rb --output build/game.exe"
 end
 
-#  "ocra source/ui/main.rb --output build/game.exe"
+
